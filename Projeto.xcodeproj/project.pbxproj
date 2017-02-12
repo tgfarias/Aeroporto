@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7BDF8311E4F361E00D43F20 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BDF8301E4F361E00D43F20 /* main.swift */; };
+		D7BDF8381E4F363E00D43F20 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BDF8371E4F363E00D43F20 /* main.swift */; };
+		D7BDF83C1E4F375E00D43F20 /* Companhia.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BDF83B1E4F375E00D43F20 /* Companhia.swift */; };
+		D7BDF83E1E4F379400D43F20 /* Aeroporto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BDF83D1E4F379400D43F20 /* Aeroporto.swift */; };
+		D7BDF8401E4F37A500D43F20 /* Voo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BDF83F1E4F37A500D43F20 /* Voo.swift */; };
+		D7BDF8441E4F406F00D43F20 /* Infraero.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BDF8431E4F406F00D43F20 /* Infraero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,11 @@
 
 /* Begin PBXFileReference section */
 		D7BDF82D1E4F361E00D43F20 /* Projeto */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Projeto; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7BDF8301E4F361E00D43F20 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D7BDF8371E4F363E00D43F20 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = "../../Aula Swift Visual/Infraero/main.swift"; sourceTree = "<group>"; };
+		D7BDF83B1E4F375E00D43F20 /* Companhia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Companhia.swift; sourceTree = "<group>"; };
+		D7BDF83D1E4F379400D43F20 /* Aeroporto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aeroporto.swift; sourceTree = "<group>"; };
+		D7BDF83F1E4F37A500D43F20 /* Voo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Voo.swift; sourceTree = "<group>"; };
+		D7BDF8431E4F406F00D43F20 /* Infraero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Infraero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,11 @@
 		D7BDF82F1E4F361E00D43F20 /* Projeto */ = {
 			isa = PBXGroup;
 			children = (
-				D7BDF8301E4F361E00D43F20 /* main.swift */,
+				D7BDF8371E4F363E00D43F20 /* main.swift */,
+				D7BDF83B1E4F375E00D43F20 /* Companhia.swift */,
+				D7BDF83D1E4F379400D43F20 /* Aeroporto.swift */,
+				D7BDF83F1E4F37A500D43F20 /* Voo.swift */,
+				D7BDF8431E4F406F00D43F20 /* Infraero.swift */,
 			);
 			path = Projeto;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7BDF8311E4F361E00D43F20 /* main.swift in Sources */,
+				D7BDF8401E4F37A500D43F20 /* Voo.swift in Sources */,
+				D7BDF8381E4F363E00D43F20 /* main.swift in Sources */,
+				D7BDF83E1E4F379400D43F20 /* Aeroporto.swift in Sources */,
+				D7BDF83C1E4F375E00D43F20 /* Companhia.swift in Sources */,
+				D7BDF8441E4F406F00D43F20 /* Infraero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
